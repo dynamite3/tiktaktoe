@@ -1,0 +1,46 @@
+body{
+  background: rgb(210,185,206);
+  background: radial-gradient(circle, rgba(210,185,206,1) 38%, rgba(72,36,182,1) 100%);
+}
+
+.title{
+  text-align: center;
+  align-content: center;
+}
+
+.title >b{
+  font-size: 50px;
+}
+
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns:  150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+
+  }
+  .container >div {
+
+    margin: 5px;
+    border: 2px solid #000;
+  }
+
+  .box{
+    text-align: center;
+    text-align: center;
+    background: rgb(195,201,218);
+    background: radial-gradient(circle, rgba(195,201,218,1) 15%, rgba(182,36,36,1) 100%);
+
+  }
+
+  .box:hover{
+    background: rgb(195,201,218);
+    background: radial-gradient(circle, rgba(195,201,218,1) 15%, rgba(182,140,36,1) 100%);
+  }
+
+  .ot{
+    text-align: center;
+    text-align: center;
+  }
+
